@@ -1,0 +1,96 @@
+/*add to bootstrap css*/
+body{
+	background-repeat:no-repeat;
+	background-size: 100%;
+}
+
+#text-jumbotron{
+	max-width: 100%;
+}
+
+#text-footer{
+	font-size: 10px;
+}
+
+.text-table {
+  width: 50%;
+  max-width: 50%;
+  margin-bottom: 20px;
+  padding-left:30%;
+  
+}
+
+.text-tableOne{
+	margin: 0;
+	padding: 0;
+	float: left;
+	overflow:hidden;
+	margin-left: 20%;
+}
+
+.text-tableTwo{
+	margin: 0;
+	padding: 0;
+	float: left;
+	overflow:hidden;
+	margin-left: 20%;
+}
+
+.text-table-margin{
+	width: 100%;
+}
+
+.text-button{
+	margin-right: 15%;
+	float: right;
+}
+
+#TickOne, 
+#TickTwo, 
+#TickThree, 
+#TickFour, 
+#TickFive,
+#TickSix,
+#TickSeven, 
+#TickEight { 
+	display: none; 
+	width: 20px; 
+	height: 20px;
+	float:right;
+}
+
+#HomeTickOne, 
+#HomeTickTwo, 
+#HomeTickThree, 
+#HomeTickFour, 
+#HomeTickFive,
+#HomeTickSix,
+#HomeTickSeven, 
+#HomeTickEight { 
+	display: none; 
+	width: 20px; 
+	height: 20px;
+	float:right;
+}
+
+a, 
+a:link, 
+a:visited, 
+a:hover, 
+a:focus, 
+a:active{
+  color:#333;
+  text-decoration: none;
+}
+
+.table > tbody > tr > td {
+	padding-left: 10%;
+	padding-right: 10%;
+	font-size: 110%;
+}
+
+.table > thead > tr > th{
+	font-size:110%;
+	text-align: center;
+}
+
