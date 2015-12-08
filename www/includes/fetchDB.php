@@ -1,7 +1,7 @@
 
 <?php 
 #if(!mysql_connect("mysql2.gear.host","safetaxi","Safetaxi1!"))
-if(!mysql_connect("localhost","root","pass"))
+if(!mysql_connect("localhost:3308","root","pass"))
 {
 	die('oops connection problem ! --> '.mysql_error());
 }
